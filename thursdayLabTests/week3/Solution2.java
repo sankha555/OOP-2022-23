@@ -1,6 +1,6 @@
 import java.util.*;
-
-public class Solution {
+// Rename to Solution in hackerrank submission
+public class Solution2 {
       private static void reverse(int[] arr) {
         int left = 0;
         int right = arr.length - 1;
