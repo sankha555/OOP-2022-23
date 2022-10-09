@@ -1,3 +1,4 @@
+// Remove public in hackerrank submission
 public class Employee {
     private final double salary;
     private final String name;
