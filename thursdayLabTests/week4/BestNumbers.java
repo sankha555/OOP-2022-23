@@ -1,5 +1,5 @@
 import java.util.Arrays;
-
+// Remove public in hackerrank submission
 public class BestNumbers {
     private static final int[] INITIAL_BEST_NUMBERS = {1, 2, 3, 4, 5};
     private final int[] bestNumbersArray;
