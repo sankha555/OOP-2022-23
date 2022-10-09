@@ -1,8 +1,8 @@
 import java.io.*;
 import java.util.*;
 
-class Animal{
-	private String name;
+class Animal{ 
+    private String name;
   
     Animal(String name){
     	this.name = name;
@@ -14,7 +14,7 @@ class Animal{
 }
 
 class Dog extends Animal{
-	private String owner;
+    private String owner;
   
     Dog(String owner, String dogName){
         super(dogName);
