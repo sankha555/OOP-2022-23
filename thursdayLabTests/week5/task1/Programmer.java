@@ -1,3 +1,4 @@
+// Remove public in hackerrank submission
 public class Programmer extends Employee {
     private final double bonus;
     private final String specialization;
