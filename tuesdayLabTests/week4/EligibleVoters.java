@@ -6,7 +6,7 @@ class Student {
     String name;
     String ID;
     int age;
-	static int eligibleVoters;
+    static int eligibleVoters;
     
 
     Student(String name, String ID, int age) {
