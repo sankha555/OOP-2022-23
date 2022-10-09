@@ -1,3 +1,4 @@
+// Remove public in hackerrank submission
 public class Song implements Comparable<Song> {
     private final int duration;
     private final String artist;
