@@ -19,7 +19,7 @@ class Student {
     }
 
     public static int studentsOfVotingAge() {
-		return eligibleVoters;
+	return eligibleVoters;
     }
 
 }
