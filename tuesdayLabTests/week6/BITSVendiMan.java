@@ -110,6 +110,7 @@ class Item{
     @Override
     public boolean equals(Object obj){
         if (obj == null) return false;
+        if (this.getClass() != obj.getClass()) return false;
         if (obj == this) return true;
         return (this.getName().equals(((Item) obj).getName())) &&
                 (this.getPrice() == ((Item) obj).getPrice());
@@ -144,6 +145,7 @@ class Money {
     @Override
     public boolean equals(Object obj){
         if (obj == null) return false;
+        if (this.getClass() != obj.getClass()) return false;
         if (obj == this) return true;
         return (this.getDenomination().equals(((Money) obj).getDenomination())) &&
                 (this.getValue() == ((Money) obj).getValue());
