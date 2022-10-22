@@ -25,9 +25,9 @@ public class DirectedGraph {
      */
     public void addEdge(int from, int to) {
         if (!adjList.get(from).contains(to)) {
+             adjList.get(from).add(to);
             ++E;
         }
-        adjList.get(from).add(to);
     }
 
     public int getNumberOfVertices() {
