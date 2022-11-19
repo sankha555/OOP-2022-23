@@ -32,8 +32,8 @@ public class DFA implements Automaton {
             if (alphabet.indexOf(in) == -1) {
                 throw new IllegalArgumentException("\nIllegal input character " + in  + "; DFA dies!" );
             }
-            State next = transitionFunction.get(current).get(input.charAt(i));
-            System.out.print(" on " + input.charAt(i) + " --> " + next);
+            State next = transitionFunction.get(current).get(in);
+            System.out.print(" on " + in + " --> " + next);
             current = next;
         }
 
