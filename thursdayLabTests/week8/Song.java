@@ -1,4 +1,4 @@
-class Song implements Comparable<Song> {
+public class Song implements Comparable<Song> {
     private final String artist;
     private final int durationInSeconds;
     private final long hearts;
